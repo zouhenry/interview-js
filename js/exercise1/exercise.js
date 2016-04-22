@@ -3,12 +3,12 @@
  */
 
 function exercise() {
-  (function () {
-    var a = 3;
-    b     = a;
+  (function IIFE() {
+    var bar = 3;
+    foo     = bar;
   })();
-  console.log(a);
-  console.log(b);
+  console.log('foo', foo);
+  console.log('bar', bar);
 }
-
+// What's the output of exercise();
 // exercise();

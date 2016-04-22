@@ -9,5 +9,4 @@ function exercise() {
   console.log(4);
 }
 
-//what's the output of exercise()?
 // exercise();

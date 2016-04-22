@@ -10,10 +10,26 @@ var jane = {
   title: "jane"
 };
 
-var exercise = function exercise() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise1() {
   john.echoTitle();
-};
-// exercise();
+}
+// exercise1();
 
 
 
@@ -27,11 +43,15 @@ var exercise = function exercise() {
 
 
 
-var exercise = function () {
+
+
+
+
+function exercise2() {
   var echoTitle = john.echoTitle;
   echoTitle();
-};
-// exercise();
+}
+// exercise2();
 
 
 
@@ -45,11 +65,15 @@ var exercise = function () {
 
 
 
-var exercise = function () {
+
+
+
+
+function exercise3() {
   var echoTitle = john.echoTitle.bind(jane);
   echoTitle();
-};
-// exercise();
+}
+// exercise3();
 
 
 
@@ -68,10 +92,10 @@ var exercise = function () {
 
 
 
-var exercise = function() {
+function exercise4() {
   john.echoTitle.call(jane);
-};
-// exercise();
+}
+// exercise4();
 
 
 
@@ -90,7 +114,7 @@ var exercise = function() {
 
 
 
-var exercise = function() {
+function exercise5() {
   john.echoTitle.apply(jane);
-};
-// exercise();
+}
+// exercise5();

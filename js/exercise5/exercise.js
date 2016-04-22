@@ -8,5 +8,4 @@ function exercise(x) {
   };
 }
 
-//how do you output "hello world"?
-// exercise?
+//Given the function above, how would you invoke it to output "hello world"?
