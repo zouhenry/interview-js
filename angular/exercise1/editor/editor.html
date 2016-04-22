@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+  <link rel="stylesheet" href="exercise.css">
+</head>
+<body ng-app="app">
+<a href="javascript:history.back();"> < Back </a>
+
+<div ng-controller="StudentController as vm">
+  <table border="1">
+    <thead>
+      <td>ID</td>
+      <td>First Name</td>
+      <td>Last Name</td>
+      <td>Score</td>
+    </thead>
+    <tbody>
+    <tr ng-repeat="student in vm.students">
+      <td>{{student.id}}</td>
+      <td>{{student.firstname}}</td>
+      <td>{{student.lastname}}</td>
+      <td>{{student.score}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<pre><code class="javascript">
+//student data
+{
+  id       : 1,
+  firstname: "John",
+  lastname : "Smith",
+  score    : 75
+}, {
+  id       : 2,
+  firstname: "Jane",
+  lastname : "Smith",
+  score    : 91
+}, {
+  id       : 3,
+  firstname: "Al",
+  lastname : "Jones",
+  score    : 87
+}, {
+  id       : 4,
+  firstname: "Ben",
+  lastname : "Franklin",
+  score    : 56
+}
+</code></pre>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/lodash/dist/lodash.js"></script>
+<script src="/angular/app.js"></script>
+<script src="exercise.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

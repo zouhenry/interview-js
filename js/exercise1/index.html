@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+</head>
+<body>
+<a href="javascript:history.back();"> < Back </a>
+
+<pre><code class="javascript">
+function exercise() {
+  (function () {
+    var a = 3;
+    b     = a;
+  })();
+  console.log(a);
+  console.log(b);
+}
+</code></pre>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/lodash/dist/lodash.js"></script>
+<script src="exercise.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

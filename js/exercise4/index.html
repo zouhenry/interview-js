@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>exercise</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+</head>
+<body>
+<a href="javascript:history.back();"> < Back </a>
+
+<pre><code class="javascript">
+function exercise() {
+  for ( var counter = 0; counter < 5; ++counter ) {
+    setTimeout(function () {
+      console.log(counter);
+    }, counter * 1000);
+  }
+}
+</code></pre>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/lodash/dist/lodash.js"></script>
+<script src="exercise.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
