@@ -1,7 +1,7 @@
 /**
  * Created by hzou on 4/21/16.
  */
-(function(){
+(function () {
   angular
-    .module('app',[]);
-});
+    .module('app', []);
+})();

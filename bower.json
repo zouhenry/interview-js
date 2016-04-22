@@ -1,0 +1,27 @@
+{
+  "name": "interview-js",
+  "authors": [
+    "Henry Zou <hzou@intersystems.com>"
+  ],
+  "description": "Interview exercises",
+  "main": "",
+  "keywords": [
+    "angular",
+    "js",
+    "interview"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "lodash": "^4.11.2"
+  }
+}
