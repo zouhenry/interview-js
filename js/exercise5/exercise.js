@@ -9,4 +9,4 @@ function exercise(x) {
 }
 
 //how do you output "hello world"?
-exercise("hello")("world");
+// exercise?

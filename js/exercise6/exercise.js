@@ -2,17 +2,14 @@
  * Created by hzou on 4/21/16.
  */
 
-function Person(name) {
-  this.name = name;
+function exercise() {
+  var total = sum(2, 3);
+  console.log('total', total);
+
+  var sum = function sum(param1, param2) {
+    return param1 + param2;
+  };
 }
 
-var jane = new Person('jane');
-var john = new Person('john');
 
-//add a sayHi method so the code below will log the right output
-
-//output "hi jane"
-jane.sayHi();
-
-//output "hi john"
-john.sayHi();
+// exercise();

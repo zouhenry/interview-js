@@ -12,4 +12,4 @@ function exercise() {
 }
 
 //what's the output of exercise()?
-exercise();
+// exercise();
