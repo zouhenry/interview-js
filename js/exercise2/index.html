@@ -6,6 +6,7 @@
 </head>
 <body>
 <a href="javascript:history.back();"> < Back </a>
+<a style="float:right" href="/js/exercise3"> Next > </a>
 
 <pre><code class="javascript">
 var john = {
@@ -18,6 +19,185 @@ var john = {
 var jane = {
   title: "jane"
 };
+
+
+var jane = {
+  title: "jane"
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise1() {
+  john.echoTitle();
+}
+// exercise1();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise2() {
+  var echoTitle = john.echoTitle;
+  echoTitle();
+}
+// exercise2();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise3() {
+  var echoTitle = john.echoTitle.bind(jane);
+  echoTitle();
+}
+// exercise3();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise4() {
+  john.echoTitle.call(jane);
+}
+// exercise4();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function exercise5() {
+  john.echoTitle.apply(jane);
+}
+// exercise5();
 </code></pre>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>

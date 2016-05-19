@@ -7,14 +7,17 @@
 </head>
 <body ng-app="app">
 <a href="javascript:history.back();"> < Back </a>
+<a style="float:right" href="/angular/exercise2"> Next > </a>
 
-<div>
-  <ul>
+<div style="margin-top: 3rem;">
+  <b>Features to implement:</b>
+  <ol>
     <li>Click table header to sort</li>
     <li>Click student to edit</li>
     <li>Click save to update data</li>
-  </ul>
+  </ol>
 </div>
+<hr/>
 <div ng-controller="StudentController as vm">
   <table border="1">
     <thead>
