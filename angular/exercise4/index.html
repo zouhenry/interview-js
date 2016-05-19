@@ -6,11 +6,21 @@
 </head>
 <body ng-app="app">
 <a href="javascript:history.back();"> < Back </a>
-<a style="float:right" href="/angular/exercise2"> Next > </a>
+<a style="float:right" href="/angular/exercise5"> Next > </a>
 
 <pre>
   <code class="javascript">
-    What is controllerAs syntax and when do you use it?
+    What's the difference between ng-options and ng-repeat?
+    Which one is preferred and why?
+
+    //ng-repeat
+    &lt;select ng-change='...'&gt;
+      &lt;option ng-repeat='option in options' value='option'&gt;{ { option } }&lt;option&gt;
+    &lt;/select&gt;
+
+    //ng-option
+    &lt;select ng-model='...' ng-option='option in options'&gt; &lt;option&gt;
+
   </code>
 </pre>
 

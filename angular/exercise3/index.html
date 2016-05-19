@@ -6,11 +6,22 @@
 </head>
 <body ng-app="app">
 <a href="javascript:history.back();"> < Back </a>
-<a style="float:right" href="/angular/exercise2"> Next > </a>
+<a style="float:right" href="/angular/exercise4"> Next > </a>
 
 <pre>
   <code class="javascript">
-    What is controllerAs syntax and when do you use it?
+    What causes 'Error: $digest already in progress' and how do I fix it?
+
+
+    $scope.$apply(function callback(){
+      ...
+    });
+
+    function callback(){
+      ...
+      $scope.$digest();;
+    }
+
   </code>
 </pre>
 
