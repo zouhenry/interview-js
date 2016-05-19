@@ -3,12 +3,16 @@
  */
 
 function exercise() {
-  (function IIFE() {
+  function func() {
     var bar = 3;
     foo     = bar;
-  })();
-  console.log('foo', foo);
+  }
+
+  func(); //calling foo
+
   console.log('bar', bar);
+  console.log('foo', foo);
 }
+
 // What's the output of exercise();
 // exercise();
