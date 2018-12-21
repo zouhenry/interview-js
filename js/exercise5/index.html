@@ -12,30 +12,24 @@
 <br/>
 <br/>
 <code>
-  <a href="https://jsbin.com/lafilaw/edit?js,console">jsbin</a>
+  <a target="_blank" href="https://jsbin.com/wepofureze/1/edit?js,console">jsbin</a>
 </code>
 
 <pre><code class="javascript">
 
-/*
-1. create a helloMr function which takes a name to returns "Hello Mr. <name>"
-2. create a helloMrs function which takes a name to output "Hello Mrs. <name>"
-3. create a helloMrAndMrs function which takes a name to output "Hello Mr. and Mrs. <name>"
-4. create a generic partial function which takes a function and then partial fills in the parameters.
-   When it is invoked again with additional parameter, that's when the original function is resolved.
-5. update helloMr, helloMrs, helloMrAndMrs, to use the function from #4
-*/
-
-
-function sayHello(title, name){
-  console.log('Hello ' + title + ' ' + name);
-}
-
-//TODO: implement helloMr, helloMrs, helloMrAndMrs
-
-helloMr('Smith'); //Hello Mr. Smith
-helloMrs('Smith'); //Hello Mrs. Smith
-helloMrAndMrs('Smith'); //Hello Mr. And Mrs. Smith
+  function sayHello(title, name){
+    console.log('Hello ' + title + ' ' + name);
+  }
+  
+  //TODO: implement helloMr, helloMrs, helloMrAndMrs using sayHello
+  
+  function exercise(){
+    helloMr('Smith'); //Hello Mr. Smith
+    helloMrs('Smith'); //Hello Mrs. Smith
+    helloMrAndMrs('Smith'); //Hello Mr. And Mrs. Smith
+  }
+  
+  exercise();
 
 </code></pre>
 

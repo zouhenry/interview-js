@@ -7,19 +7,30 @@
 </head>
 <body>
 <a href="javascript:history.back();"> < Back </a>
-<a style="float:right" href="/js/exercise7"> Next > </a>
+<a style="float:right" href="/js/exercise6"> Next > </a>
+<br/>
+<br/>
+<br/>
+<code>
+  <a target="_blank" href="https://jsbin.com/tuveqaligu/1/edit?js,console">jsbin</a>
+</code>
 
 <pre><code class="javascript">
-function exercise() {
-  var total = sum(2, 3);
-  console.log('total', total);
 
-  var sum = function (param1, param2) {
-    return param1 + param2;
-  };
-}
-
-  //What happens when exercise function is called and why?
+  function sayHello(title, name){
+    console.log('Hello ' + title + ' ' + name);
+  }
+  
+  //TODO: implement partial
+  
+  const helloMr = partial(sayHello, 'Mr.');
+  const helloMrs = partial(sayHello, 'Mrs.');
+  const helloMrAndMrs = partial(sayHello, 'Mr. and Mrs.');
+  
+  helloMr('Smith'); //Hello Mr. Smith
+  helloMrs('Smith'); //Hello Mrs. Smith
+  helloMrAndMrs('Smith'); //Hello Mr. And Mrs. Smith
+  
 </code></pre>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
